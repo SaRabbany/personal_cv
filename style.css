@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.h1, h1 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #182153;
+  letter-spacing: 3px;
+}
+
+h2 {
+  color: #182153;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+h3 {
+  color: #182153;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.h4, h4 {
+  font-size: 1.5rem;
+  font-size: 24px;
+  font-weight: 500;
+  color: #182153;
+  letter-spacing: 2px;
+}
+
+.h5, h5 {
+  font-size: 30px;
+  font-weight: 300;
+  color: #182153;
+  letter-spacing: 2px;
+}
+
+.h6, h6 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #182153;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 300;
+  color: #182153;
+  letter-spacing: 1.5px;
+}
+
+.border_style {
+  border-right: 1px solid #c3c3c3;
+}
+
+nav {
+  height: 100px;
+}
+
+nav .container .navbar-brand {
+  color: #182153;
+  font-weight: 300;
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav .container .nav-item {
+  padding: 0 20px;
+}
+
+nav .container .nav-item .nav-link {
+  color: #182153;
+  font-weight: 300;
+}
+
+header {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(14, 139, 255, 0.45)), to(rgba(0, 87, 201, 0.45))), url(images/back-1.jpg);
+  background-image: linear-gradient(rgba(14, 139, 255, 0.45), rgba(0, 87, 201, 0.45)), url(images/back-1.jpg);
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 780px;
+}
+
+header .container {
+  width: 100%;
+  padding: 90px 50px;
+}
+
+header .container .row {
+  margin-top: 80px;
+}
+
+header .container .Profile_img {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(163, 163, 163, 0.45)), to(rgba(185, 185, 185, 0.45))), url(images/profile-background.jpg);
+  background-image: linear-gradient(rgba(163, 163, 163, 0.45), rgba(185, 185, 185, 0.45)), url(images/profile-background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px  0 0 0;
+}
+
+header .container .Profile_img img {
+  size: cover;
+  width: 100%;
+  height: 600px;
+}
+
+header .container .header_content {
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 50px 40px;
+}
+
+header .container .header_social {
+  background-color: #182153;
+  color: white;
+  font-size: 24px;
+  padding: 20px 0;
+  margin: 0;
+}
+
+header .container .header_social i {
+  padding: 10px 15px;
+}
+
+.heading {
+  border-bottom: 2px solid #f1f2f4;
+  border-top: 2px solid #f1f2f4;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.hello {
+  padding-top: 200px;
+  padding-bottom: 100px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.first-content {
+  text-align: end;
+}
+
+.last-content {
+  margin-bottom: 30px;
+}
+
+.experience {
+  background-color: #ffffff;
+  padding-bottom: 40px;
+}
+
+.experience .col-md-6 {
+  padding: 0 50px;
+}
+
+.client {
+  background-color: #ffffff;
+}
+
+.client .client-img {
+  margin: 40px 0;
+}
+
+.client .client-img img {
+  padding: 0 30px;
+  width: 90%;
+}
+
+.skill {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(9, 66, 224, 0.623)), to(rgba(0, 43, 184, 0.664))), url(images/back-1.jpg);
+  background-image: linear-gradient(rgba(9, 66, 224, 0.623), rgba(0, 43, 184, 0.664)), url(images/back-1.jpg);
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.skill_list {
+  padding-bottom: 50px;
+}
+
+.skill_list .skill_box {
+  padding: 20px 50px;
+}
+
+.skill_list .skill_box h5 {
+  background-color: #84848483;
+  display: inline;
+  padding: 30px 50px;
+  color: white;
+  font-size: 24px;
+}
+
+.espertice {
+  margin-bottom: 80px;
+}
+
+.espertice .row .col-md-4 {
+  padding: 10px 20px;
+}
+
+.contact_me {
+  background-color: #f1f2f4;
+  padding-bottom: 50px;
+}
+
+.contact_me .row {
+  margin-top: 30px;
+}
+
+.contact_me .row .col-md-6 {
+  padding: 10px 50px;
+}
+
+.contact_me .row .footer_social {
+  border-top: 1px solid #c3c3c3;
+  padding: 20px 0;
+}
+
+.contact_me .row .footer_social i {
+  padding-right: 20px;
+  font-size: 24px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #182153;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #182153;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  /* appearance: none; */
+  border-radius: 0;
+  -webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+
+@media only screen and (max-width: 1200px) {
+  header {
+    height: 710px;
+  }
+  header .container .Profile_img img {
+    height: 530px;
+  }
+  .skill_list .skill_box h5 {
+    background-color: #84848483;
+    display: inline;
+    padding: 30px 10px;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (max-width: 992px) {
+  header .container {
+    padding: 90px 0px;
+  }
+  .skill_list .skill_box {
+    padding: 20px 20px;
+  }
+  .skill_list .skill_box h5 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (max-width: 767px) {
+  header {
+    height: auto;
+  }
+  .hello {
+    padding-top: 50px;
+  }
+  .border_style {
+    border-right: none;
+  }
+  .first-content {
+    text-align: left;
+  }
+  .skill_list {
+    padding-bottom: 0;
+  }
+  .skill_list .skill_box {
+    padding: 20px 20px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .skill_list .skill_box h5 {
+    font-size: 24px;
+    padding: 30px;
+  }
+  .client .client-img img {
+    padding: 30px 44px;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  header .container .Profile_img img {
+    height: auto;
+  }
+  header .container {
+    padding: 90px 30px;
+  }
+  .skill_list .skill_box h5 {
+    font-size: 16px;
+    padding: 18px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
